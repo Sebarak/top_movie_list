@@ -1,0 +1,16 @@
+main{
+  flex-direction: column;
+
+
+  .table{
+    width: 50%;
+    text-align: center;
+  }
+  .add_row{
+    width: 50%;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
